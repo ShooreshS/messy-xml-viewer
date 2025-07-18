@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Broken XML Formatter",
+  "description": "Parses broken XML from clipboard into a readable table",
+  "version": "1.0",
+  "permissions": ["clipboardRead", "scripting"],
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "icons/SSxml.png",
+      "48": "icons/SSxml.png",
+      "128": "icons/SSxml.png"
+    }
+  },
+  "host_permissions": ["<all_urls>"]
+}
